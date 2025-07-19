@@ -20,4 +20,7 @@ public class HealthCheckController {
     public ResponseEntity<String> healthCheck() {
         return new ResponseEntity<>("Service is up and running.", HttpStatus.OK);
     }
+    public void helperMethod(){
+        System.out.pritln("It's all about just testing");
+    }
 }
