@@ -22,5 +22,6 @@ public class HealthCheckController {
     }
     public void helperMethod(){
         System.out.pritln("It's all about just testing again now");
+        System.out.pritln("Adding new line for testing again");
     }
 }
