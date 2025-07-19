@@ -21,6 +21,6 @@ public class HealthCheckController {
         return new ResponseEntity<>("Service is up and running.", HttpStatus.OK);
     }
     public void helperMethod(){
-        System.out.pritln("It's all about just testing");
+        System.out.pritln("It's all about just testing again now");
     }
 }
