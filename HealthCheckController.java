@@ -24,5 +24,6 @@ public class HealthCheckController {
     public void m1(){
         int a = 0;
         system.out.println("a variable in this method represents the price");
+        system.out.printn("test line this again");
     }
 }
