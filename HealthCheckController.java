@@ -29,3 +29,10 @@ public class HealthCheckController {
         System.out.pritln("updated prompt to get response in diff format, let's check try agin n again");
     }
 }
+
+
+// Suggested Fix by AI:
+```diff
+-        System.out.pritln("updated prompt to get response in diff format, let's check try agin");
++        System.out.pritln("updated prompt to get response in diff format, let's check try agin n again");
+```
