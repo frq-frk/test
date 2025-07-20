@@ -20,4 +20,9 @@ public class HealthCheckController {
     public ResponseEntity<String> healthCheck() {
         return new ResponseEntity<>("Service is up and running.", HttpStatus.OK);
     }
+
+    public void m1(){
+        int a = 0;
+        system.out.println("a variable in this method represents the price");
+    }
 }
