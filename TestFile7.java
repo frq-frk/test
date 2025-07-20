@@ -7,3 +7,8 @@ class TestFile7{
       System.out.println("testing this is");
   }
 }
+
+
+// Suggested Fix by AI:
+[-] System.out.printnl("a variable here is the state tax, b variable here is the central tax");
+[+] System.out.println("a variable here is the state tax, b variable here is the central tax");
