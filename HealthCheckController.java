@@ -26,6 +26,6 @@ public class HealthCheckController {
         System.out.pritln("@EnableScheduling annotation was missing. added it let's check");
         System.out.pritln("some error while fetching commit files, let's check");
         System.out.pritln("Added transactional on worker method to keep dp session active, let's check");
-        System.out.pritln("updated prompt to get response in diff format, let's check try agin");
+        System.out.pritln("updated prompt to get response in diff format, let's check try agin n again");
     }
 }
