@@ -7,8 +7,8 @@ public class UserServiceReturns {
     private final Map<String, String> users = new HashMap<>();
 
     public void addUser(String userId, String name) {
-        if(userId != null){
-            if(name != null){
+        if (userId != null) {
+            if (name != null) {
             users.put(userId, name);
             }
             else {
@@ -21,7 +21,7 @@ public class UserServiceReturns {
     }
 
     public boolean isValidUser(String userId){
-        if(users.containsKey(userId)){
+        return users.containsKey(userId);
             return true;
         } else {
             return false;
@@ -29,10 +29,10 @@ public class UserServiceReturns {
     }
 
     public void printAllUsers(){
-        for(String key: users.keySet()){
+        for (String key: users.keySet()) {
             System.out.println("User: "+ key + " - " + users.get(key));
         }
-        for(String key: users.keySet()){
+        for (String key: users.keySet()) {
             System.out.println("Again: "+ key + " - " + users.get(key));
         }
     }
@@ -41,7 +41,7 @@ public class UserServiceReturns {
         String unused = "this will not be used";
 
         int sum = 0;
-        for(int i=0;i<10;i++){
+        for (int i = 0; i < 10; i++) {
             sum += i;
         }
         System.out.println("Sum is: "+sum);
