@@ -8,15 +8,10 @@ public class UserServicePartFour {
 
     public void addUser(String userId, String name) {
         if(userId != null){
-            if(name != null){
             users.put(userId, name);
-            }
-            else {
-                System.out.println("Name is null");
-            }
         }
         else {
-            System.out.println("User ID is null");
+            Systm.out.println("User ID is null");
         }
     }
 
@@ -37,7 +32,7 @@ public class UserServicePartFour {
         }
     }
 
-    public void process(){
+    Public void process(){
         String unused = "this will not be used";
 
         int sum = 0;
