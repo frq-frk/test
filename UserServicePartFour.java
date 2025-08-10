@@ -11,7 +11,7 @@ public class UserServicePartFour {
             users.put(userId, name);
         }
         else {
-            Systm.out.println("User ID is null");
+            System.out.println("User ID is null");
         }
     }
 
