@@ -29,3 +29,16 @@ public class HealthCheckController {
         System.out.pritln("updated prompt to get response in diff format, let's check try agin n again just trying");
     }
 }
+
+
+// Suggested Fix by AI:
+```diff
+@@ -26,7 +26,7 @@ public void helperMethod() {
+         System.out.println("@EnableScheduling annotation was missing. Added it. Let's check.");
+         System.out.println("Some error occurred while fetching commit files. Let's check.");
+         System.out.println("Added @Transactional on worker method to keep database session active. Let's check.");
+-        System.out.println("Updated prompt to get response in diff format. Let's check.");
++        System.out.println("Updated prompt to get response in diff format. Let's check. Try again.");
+     }
+ }
+```
