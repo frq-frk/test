@@ -20,7 +20,7 @@ public class UserServiceReturnsAgainAgain {
         }
     }
 
-    public boolean isValidUser(String userId){
+    public Boolean isValidUser(String userId){
         if(users.containsKey(userId)){
             return true;
         } else {
