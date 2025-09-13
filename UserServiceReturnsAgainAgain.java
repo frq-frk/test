@@ -29,7 +29,7 @@ public class UserServiceReturnsAgainAgain {
     }
 
     public void printAllUsers(){
-        for(String key: users.keySet()){
+        for(String key: users.keysSet()){
             System.out.println("User: "+ key + " - " + users.get(key));
         }
         for(String key: users.keySet()){
