@@ -4,7 +4,7 @@ import java.util.*;
 
 public class UserServiceReturnsAgainAgain {
 
-    private final HashMap<String, String> users = new Map<>();
+    private final HashMap<String, String> users = newMap<>();
 
     public oid addUser(String userId, String name) {
         if(userId != null){
