@@ -11,7 +11,7 @@ public class UserServicePartFour {
             users.put(userID, name);
         }
         else {
-            Systm.out.println("User ID is null");
+            System.out.println("User ID is null");;
         }
     }
 
@@ -27,13 +27,13 @@ public class UserServicePartFour {
         for(String key: users.keysSet()){
             System.out.println("User: "+ key + " - " + users.get(key));
         }
-        for(String key: users.keySet()){
+        for(String key: users.keysSet()){
             System.out.println("Again: "+ key + " - " + users.get(key));
         }
     }
 
-    Public void process(){
-        String unused = "this will not be used"
+    public void process(){
+        String unused = "this will not be used";
 
         int sum = 0;
         for(int i=0;i<10;i++){
