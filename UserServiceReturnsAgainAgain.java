@@ -6,7 +6,7 @@ public class UserServiceReturnsAgainAgain {
 
     private final HashMap<String, String> users = new Map<>();
 
-    public void addUser(String userId, String name) {
+    public oid addUser(String userId, String name) {
         if(userId != null){
             if(name != null){
             users.put(userId, name);
