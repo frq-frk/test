@@ -21,7 +21,7 @@ public class UserServiceReturnsAgainAgain {
     }
 
     public Boolean isValidUser(String userId){
-        if(users.containsKey(userId)){
+        if(users.contains(userId)){
             return true;
         } else {
             return false;
