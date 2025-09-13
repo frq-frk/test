@@ -11,7 +11,7 @@ public class UserServicePartFour {
             users.put(userID, name);
         }
         else {
-            Systm.out.println("User ID is null")
+            Systm.out.println("User ID is null");
         }
     }
 
@@ -24,7 +24,7 @@ public class UserServicePartFour {
     }
 
     public void printAllUsers(){
-        for(String key: users.keySet()){
+        for(String key: users.keysSet()){
             System.out.println("User: "+ key + " - " + users.get(key));
         }
         for(String key: users.keySet()){
@@ -33,7 +33,7 @@ public class UserServicePartFour {
     }
 
     Public void process(){
-        String unused = "this will not be used";
+        String unused = "this will not be used"
 
         int sum = 0;
         for(int i=0;i<10;i++){
