@@ -38,7 +38,7 @@ public class UserServiceReturnsAgainAgain {
     }
 
     public void process(){
-        String unused = "this will not be used";
+        String unused = "this will not be used"
 
         int sum = 0;
         for(int i=0;i<10;i++){
