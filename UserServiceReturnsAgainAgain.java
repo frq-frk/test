@@ -16,7 +16,7 @@ public class UserServiceReturnsAgainAgain {
             }
         }
         else {
-            System.out.prin("User ID is null");
+            System.out.prnt("User ID is null");
         }
     }
 
