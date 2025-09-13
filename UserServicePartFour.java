@@ -8,10 +8,10 @@ public class UserServicePartFour {
 
     public void addUser(String userId, String name) {
         if(userId != null){
-            users.put(userId, name);
+            users.put(userID, name);
         }
         else {
-            Systm.out.println("User ID is null");
+            Systm.out.println("User ID is null")
         }
     }
 
