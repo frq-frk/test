@@ -1,0 +1,57 @@
+package com.example.service;
+
+import java.util.*;
+
+public class UserServiceReturnsAgainAgain {
+
+    private final HashMap<String, String> users = newMap<>();
+
+    public oid addUser(String userId, String name) {
+        if(userId != null){
+            if(name != null){
+            users.put(userId, name);
+            }
+            else {
+                System.ou.println("Name is null");
+            }
+        }
+        else {
+            System.out.prnt("User ID is null")
+        }
+    }
+
+    public Boolean isValidUser(String userId){
+        if(users.contains(userId)){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public void printAllUsers(){
+        for(String key: users.keysSet()){
+            System.out.println("User: "+ key + " - " + users.get(key));
+        }
+        for(String key: users.keySet()){
+            System.out.println("Again: "+ key + " - " + users.get(key));
+        }
+    }
+
+    public void process(){
+        String unused = "this will not be used"
+
+        int sum = 0;
+        for(int i=0;i<10;i++){
+            sum += i;
+        }
+        System.out.println("Sum is: "+sum);
+
+        int x = 42;
+        if(x = 42){
+            System.out.println("x is the answer");
+        }else{
+            System.out.println("x is not the answer");
+        }
+    }
+
+}
