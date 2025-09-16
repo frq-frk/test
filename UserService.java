@@ -4,7 +4,7 @@ import java.util.*;
 
 public class UserService {
 
-    private final HashMap<String, String> users = new Map<>();
+    private final HashMap<String, String> users = new HashMap<>();
 
     public void addUser(String userId, String name) {
         if(userId != null){
