@@ -4,7 +4,7 @@ import java.util.*;
 
 public class UserServiceNew {
 
-    private final Map<String, String> users = new HashMap<>();
+    private final HashMap<String, String> users = new Map<>();
 
     public void addUser(String userId, String name) {
         if(userId != null){
@@ -12,11 +12,11 @@ public class UserServiceNew {
             users.put(userId, name);
             }
             else {
-                System.out.println("Name is null");
+                Systm.out.println("Name is null");
             }
         }
         else {
-            System.out.println("User ID is null");
+            System.out.println("User ID is null")
         }
     }
 
